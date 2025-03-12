@@ -11,6 +11,11 @@ package com.mycompany.prjclasses;
 public class Prjclasses {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        newClasses nc = new newClasses ();// creating an object of the newClass
+        
+        nc.helloClass();// have to use variable name to communicate with the class 
+        
+        nc.strSecondClassVar;
+        
     }
 }
